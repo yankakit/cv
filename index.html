@@ -1,71 +1,126 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <title>index</title>
+  <meta charset="utf-8">
+  <title>Kenny's personal website</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz@6..96&family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
+  <link rel="icon" href="images/icon.png">
 </head>
+
 <body>
-    <table>
-        <tr>
-            <td>    <img src="photo-modified.png" width="200" alt="">
-            </td>
-            <td>  
-                <h1>KENNY </h1>  
-                <p><em>Founder and CTO of <strong>The App Brewery</strong></em></p>
-                <p>I am a cs student</p>
-            </td>
-        </tr>
-    </table>
- 
+
+  <div class="banner">Welocme to Yan Ka Kit's personal website</div>
+<nav>
+
+            <ul>
+                <li><a href="#introduction" class="hover-link top-link">introduction</a></li>
+                <li><a href="#My-Skill" class="hover-link top-link">My Skill</a></li>
+                <li><a href="#gallery" class="hover-link top-link">gallery</a></li>
+                <li><a href="#contact" class="hover-link top-link">Contact me</a></li>
+            </ul>
+
+</nav>
+
+
+
+  <div class="top-container">
+    <img class="top-cloud" src="images/cloud.png" alt="cloud">
+    <div class="title-text">
+      <h1>I'm Kenny.</h1>
+      <h2>a <span class="pro">pro</span>grammer.</h2>
+    </div>
+    <img class="bottom-cloud" src="images/cloud.png" alt="cloud">
+    <img class="mountain" src="images/mountain.png" alt="mountain-img">
+  </div>
+
+  <div class="middle-container" id="introduction">
+    <div class="profile">
+      <img src="images/photo-modified.png" height="180" width="=180" alt="profile-img">
+      <h2>Hello.<br>I am Yan Ka Kit.</h2>
+      <p>I'm' a Web Developer and I ❤️ coffee and photograph.</p>
+      <p class="intro"> I have a passion for creating high-quality software that solves real-world problems and helps people in their daily lives.<br><br>In addition to programming, I also enjoy photography and exploring new coffee shops. I find that these hobbies help me stay creative and energized, and I enjoy sharing my photos and coffee recommendations with others.</p>
+    </div>
     <hr>
-    <h3>Books and Teaching</h3>
-    <ul>
-        <li>The iOS App Development Bootcamp</li>
-        <li>The Complete Web Development</li>
-    </ul>
-    <hr>
-    <h3>Work Experience</h3>
+    <div class="skills" id="My-Skill">
+      <h2>My Skills.</h2>
+      <div class="skill-row">
+        <img class="code-img" src="images/programming.jpg" alt="code-img">
+
+        <h3>Design & Development</h3>
+        <table>
+          <thead>
+            <tr>
+              <th>Skill</th>
+              <th>Level</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Data Analysis</td>
+              <td>Intermediate</td>
+            </tr>
+            <tr>
+              <td>Web Development(HTML,CSS,JS,PHP)
+              </td>
+              <td>Expert</td>
+            </tr>
+
   
-    <table>
-        <tr>
-            <th>Dates</th>
-            <th>Work</th>
-        </tr>
-        <tr>
-            <td>2009-2010</td>
-            <td>Researcher at The Institude Congnitive Neurosciences</td>
-        </tr>
-        <tr>
-            <td>2010-2013</td>
-            <td>Lead Developer at Tempo App</td>
-        </tr>
-        <tr>
-            <td>2013-2015</td>
-            <td>Clinical Doctor at the National Health Service</td>
-        </tr>
-    </table>
-    <hr>
-    <h3>SKills</h3>
-    <table>
-        <tr>
-            <td>iOS Develop</td>
-            <td>❤️❤️❤️❤️❤️</td>
-        </tr>
-        <tr>
-            <td>Web Development</td> 
-            <td>❤️❤️❤️❤️</td></tr>
-        <tr>
-            <td>Photoraphy</td>
-            <td>❤️❤️</td>
-        </tr>
+
+            <tr>
+              <td>Coffee Drinking</td>
+              <td>Master</td>
+            </tr>
+          </tbody>
+        </table>
+        <p>As a web developer, my skill is the ability to create, design, and maintain websites. This involves a range of technical skills, including proficiency in programming languages like HTML, CSS, and JavaScript, as well as knowledge of website architecture, databases, and web frameworks.</p>
         
-    </table>
-    <a href="hobbies.html"><h3>My Hobbies</h3></a>
-    <ol>
-        <li>Beer brewing</li>
-        <li>Martial arts</li>
-        <li>Motorcyles</li>
-    </ol>
-   <a href="contact-me.html">Contact me</a>
+
+      </div>
+      <div class="skill-row">
+        <img class="coffee-img" src="images/coffee.png" alt="coffee-img">
+
+        <h3>Coffee</h3>
+        <p>Drinking coffee is definitely my best skill. In fact, I'm so good at it that I can dominate any coffee challenge that comes my way.</p>
+        <iframe src="images/coffee-video.mp4" width="800" height="400" frameborder="0"></iframe>
+      </div>
+    </div>
+    <hr>
+    <div class="gallery-container" id="gallery">
+      <div class="left-text">
+          <h2 >My Portfolio</h2>
+          <p>"If my words are unclear, I will rely on my photographs. And when my images are insufficient, I will embrace the power of silence."</p>
+      </div>
+      <div class="gallery">
+          <div class="box row-2" style="background-image: url(https://images.unsplash.com/photo-1597953601374-1ff2d5640c85?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);">Panda</div>
+          <div class="box col-2" style="background-image: url(https://images.unsplash.com/photo-1474511320723-9a56873867b5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YW5pbWFsfGVufDB8MHwwfHw%3D&auto=format&fit=crop&w=500&q=60);">Fox</div>
+          <div class="box row-2" style="background-image: url(https://images.unsplash.com/photo-1590488351142-010bc5059f7d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDR8fGFuaW1hbHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60);">Deer</div>
+          <div class="box col-1" style="background-image: url(https://images.unsplash.com/photo-1611689342806-0863700ce1e4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDBhttps8MHxzZWFyY2h8MjN8fGFuaW1hbHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60);">Eagle</div>
+          <div class="box col-1" style="background-image: url(https://images.unsplash.com/photo-1475809913362-28a064062ccd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);">Butterfly</div>
+          <div class="box row-2" style="background-image: url(https://images.unsplash.com/photo-1595173425119-1c54835c1874?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTh8fGFuaW1hbHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60);">Bear</div>
+          <div class="box col-2" style="background-image: url(https://images.unsplash.com/photo-1456926631375-92c8ce872def?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);">Leopard</div>
+      </div>
+  </div>
+    <hr>
+    <div class="contact-me" id="contact">
+      <h2>Get In Touch</h2>
+      <h3>If you love coffee and photograph as much as I do.</h3>
+      <p class="contact-message">Love coffee and photograph as much as I do? Let's talk about how awesome they are! We can code while we drink coffee!</p>
+      <a class="mail" href="mailto:20037455d@connect.polyu.hk">CONTACT ME</a>
+    </div>
+  </div>
+
+
+  <div class="bottom-container">
+    <a class="footer-link" href="https://www.linkedin.com/in/y-kk-3b0a23253/">LinkedIn</a>
+    <a class="footer-link" href="https://twitter.com/yankkkkkkkkk">Twitter</a>
+    <a class="footer-link" href="https://www.polyu.edu.hk/comp/">My School</a>
+    <p class="copyright">© 2023 Kenny Yan @ polyu hk.</p>
+  </div>
 </body>
+
 </html>
